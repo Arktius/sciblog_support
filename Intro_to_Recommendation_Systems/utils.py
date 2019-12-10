@@ -64,7 +64,8 @@ def get_cuda_version():
 
     """
     if sys.platform == 'win32':
-        raise NotImplementedError("Implement this!")
+        #raise NotImplementedError("Implement this!")
+        data = 'C:/Program Files/NVIDIA GPU Computing # you can look it up in the system environment variables
     elif sys.platform == 'linux':
         path = '/usr/local/cuda/version.txt'
         if os.path.isfile(path):
